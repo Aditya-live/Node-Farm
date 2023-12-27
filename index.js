@@ -16,7 +16,7 @@ const url = require('url');
 
 
 // //Reading file (Non-blocking, asynchrnonous)
-// fs.readFile('./txt/start.txt','utf-8',(err,data)=>{
+// fs.readFile('./txt/start.txt','utf-8', (err,data)=>{
 //     console.log(data);
 // });
 // console.log('Reading start file...');
@@ -100,7 +100,7 @@ const server = http.createServer((req, res)=>{
     }
 });
 
-server.listen(8000,'127.0.0.1',()=>{
-    console.log('Listening on port 8000');
+server.listen(5500,'127.0.0.1',()=>{
+    console.log('Listening on port 5500');
 })
 
